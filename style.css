@@ -1,0 +1,110 @@
+.container-1 {
+  display: flex;
+  width: 27.5%;
+  border: 2px solid black;
+  padding: 10px;
+  background-color:cadetblue;(206,233,241);
+  margin: 25px;
+  float: left;
+  position: relative;
+}
+.container-2 {
+  display: flex;
+  width: 27.5%;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: cadetblue;(206,233,241);
+  margin: 25px;
+  float: left;
+  position: relative;
+}
+.container-3 {
+  display: flex;
+  width: 27.5%;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: cadetblue;(206,233,241);
+  margin: 25px;
+  float: left;
+  position: relative;
+}
+.chicken{
+    background-color: darkgoldenrod;
+    height: 16px;
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 0;
+    padding: 3px;
+}
+.fish{
+    background-color: blueviolet;
+    height: 16px;
+    padding: 3px;
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 0;
+}
+.prawn{
+    background-color: red;
+    height: 15px;
+    padding: 3px;
+    margin: auto;
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 0;
+}
+html{
+  margin: 0 auto;
+}
+
+@media (max-width:768px) {
+  .container-3{
+    width: 82.5%;
+    align-items: center;
+  }
+
+  .container-2{
+    width: 35%;
+  }
+
+  .container-1{
+    width: 35%;
+  }
+  
+  .container-chicken{
+    position: relative;
+    left: 75%;
+    top: -75px;
+    float: left;
+  }
+  
+}
+@media (min-width:320px) and (max-width:767px) {
+  .container-3{
+    width: 70%;
+    align-items: center;
+  }
+
+  .container-2{
+    width: 70%;
+    align-items: center;
+  }
+
+  .container-1{
+    width: 70%;
+    align-items: center;
+  }
+  
+}
+@media (min-width:320px) and (max-width:767px) {
+  .container-1{
+    position: relative;
+    top:0;
+    right: 0;
+  }
+}
+
+
